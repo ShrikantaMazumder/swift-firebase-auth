@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var model: AppViewModel
+    @State private var email = ""
+    @State private var password = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            if  model.isAuthenticated {
+                Home()
+            } else {
+                AuthPage()
+            }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

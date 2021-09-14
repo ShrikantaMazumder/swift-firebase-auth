@@ -3,23 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59A3746961F684EDF9AFB4A1 /* Pods_SwiftFirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C367EE3F2632409912DFD085 /* Pods_SwiftFirebaseAuth.framework */; };
+		6C2B3F5926F11F0C00F2DA78 /* RegForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B3F5826F11F0C00F2DA78 /* RegForm.swift */; };
+		6C30B36B26EE889700D0DDCD /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30B36A26EE889700D0DDCD /* AppViewModel.swift */; };
 		6C5A3CAB26EE6D9700F3815B /* SwiftFirebaseAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5A3CAA26EE6D9700F3815B /* SwiftFirebaseAuthApp.swift */; };
 		6C5A3CAD26EE6D9700F3815B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5A3CAC26EE6D9700F3815B /* ContentView.swift */; };
 		6C5A3CAF26EE6D9800F3815B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5A3CAE26EE6D9800F3815B /* Assets.xcassets */; };
 		6C5A3CB226EE6D9800F3815B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5A3CB126EE6D9800F3815B /* Preview Assets.xcassets */; };
+		6C5A3CBA26EE71D400F3815B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C5A3CB926EE71D400F3815B /* GoogleService-Info.plist */; };
+		6C688BFF26EFBF5700873CA7 /* AuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688BFE26EFBF5700873CA7 /* AuthPage.swift */; };
+		6C688C0126EFC37F00873CA7 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688C0026EFC37F00873CA7 /* LoginForm.swift */; };
+		6C688C0326EFC3F800873CA7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688C0226EFC3F800873CA7 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C2B3F5826F11F0C00F2DA78 /* RegForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegForm.swift; sourceTree = "<group>"; };
+		6C30B36A26EE889700D0DDCD /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		6C5A3CA726EE6D9700F3815B /* SwiftFirebaseAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFirebaseAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5A3CAA26EE6D9700F3815B /* SwiftFirebaseAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFirebaseAuthApp.swift; sourceTree = "<group>"; };
 		6C5A3CAC26EE6D9700F3815B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C5A3CAE26EE6D9800F3815B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C5A3CB126EE6D9800F3815B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C5A3CB326EE6D9800F3815B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C5A3CB926EE71D400F3815B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C688BFE26EFBF5700873CA7 /* AuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPage.swift; sourceTree = "<group>"; };
+		6C688C0026EFC37F00873CA7 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		6C688C0226EFC3F800873CA7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		91005063D9AFD7A089A0ED66 /* Pods-SwiftFirebaseAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFirebaseAuth.release.xcconfig"; path = "Target Support Files/Pods-SwiftFirebaseAuth/Pods-SwiftFirebaseAuth.release.xcconfig"; sourceTree = "<group>"; };
+		B976DE2E460C10F62780340A /* Pods-SwiftFirebaseAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFirebaseAuth.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFirebaseAuth/Pods-SwiftFirebaseAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		C367EE3F2632409912DFD085 /* Pods_SwiftFirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +43,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A3746961F684EDF9AFB4A1 /* Pods_SwiftFirebaseAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0099EC588F7DE60D1CEAD1F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C367EE3F2632409912DFD085 /* Pods_SwiftFirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		240CCB8CC4D89320C0F435F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B976DE2E460C10F62780340A /* Pods-SwiftFirebaseAuth.debug.xcconfig */,
+				91005063D9AFD7A089A0ED66 /* Pods-SwiftFirebaseAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C30B36926EE887700D0DDCD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6C30B36A26EE889700D0DDCD /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		6C5A3C9E26EE6D9700F3815B = {
 			isa = PBXGroup;
 			children = (
 				6C5A3CA926EE6D9700F3815B /* SwiftFirebaseAuth */,
 				6C5A3CA826EE6D9700F3815B /* Products */,
+				240CCB8CC4D89320C0F435F8 /* Pods */,
+				0099EC588F7DE60D1CEAD1F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,9 +97,12 @@
 			isa = PBXGroup;
 			children = (
 				6C5A3CAA26EE6D9700F3815B /* SwiftFirebaseAuthApp.swift */,
+				6C688BFD26EFBF3B00873CA7 /* View */,
+				6C30B36926EE887700D0DDCD /* ViewModel */,
 				6C5A3CAC26EE6D9700F3815B /* ContentView.swift */,
 				6C5A3CAE26EE6D9800F3815B /* Assets.xcassets */,
 				6C5A3CB326EE6D9800F3815B /* Info.plist */,
+				6C5A3CB926EE71D400F3815B /* GoogleService-Info.plist */,
 				6C5A3CB026EE6D9800F3815B /* Preview Content */,
 			);
 			path = SwiftFirebaseAuth;
@@ -69,6 +116,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6C688BFD26EFBF3B00873CA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C688BFE26EFBF5700873CA7 /* AuthPage.swift */,
+				6C688C0026EFC37F00873CA7 /* LoginForm.swift */,
+				6C688C0226EFC3F800873CA7 /* Home.swift */,
+				6C2B3F5826F11F0C00F2DA78 /* RegForm.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C5A3CB626EE6D9800F3815B /* Build configuration list for PBXNativeTarget "SwiftFirebaseAuth" */;
 			buildPhases = (
+				7AAFB2010FAF872461A985ED /* [CP] Check Pods Manifest.lock */,
 				6C5A3CA326EE6D9700F3815B /* Sources */,
 				6C5A3CA426EE6D9700F3815B /* Frameworks */,
 				6C5A3CA526EE6D9700F3815B /* Resources */,
+				CFCD871431574A76F0B334E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +188,66 @@
 			files = (
 				6C5A3CB226EE6D9800F3815B /* Preview Assets.xcassets in Resources */,
 				6C5A3CAF26EE6D9800F3815B /* Assets.xcassets in Resources */,
+				6C5A3CBA26EE71D400F3815B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AAFB2010FAF872461A985ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftFirebaseAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCD871431574A76F0B334E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftFirebaseAuth/Pods-SwiftFirebaseAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftFirebaseAuth/Pods-SwiftFirebaseAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftFirebaseAuth/Pods-SwiftFirebaseAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C5A3CA326EE6D9700F3815B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C688C0126EFC37F00873CA7 /* LoginForm.swift in Sources */,
 				6C5A3CAD26EE6D9700F3815B /* ContentView.swift in Sources */,
+				6C30B36B26EE889700D0DDCD /* AppViewModel.swift in Sources */,
+				6C688BFF26EFBF5700873CA7 /* AuthPage.swift in Sources */,
+				6C688C0326EFC3F800873CA7 /* Home.swift in Sources */,
 				6C5A3CAB26EE6D9700F3815B /* SwiftFirebaseAuthApp.swift in Sources */,
+				6C2B3F5926F11F0C00F2DA78 /* RegForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +372,7 @@
 		};
 		6C5A3CB726EE6D9800F3815B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B976DE2E460C10F62780340A /* Pods-SwiftFirebaseAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +394,7 @@
 		};
 		6C5A3CB826EE6D9800F3815B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91005063D9AFD7A089A0ED66 /* Pods-SwiftFirebaseAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
